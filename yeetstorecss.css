@@ -1,4 +1,8 @@
 
 .gradient-title{
-color:red;
+  font-size: 53px;
+  background: -webkit-linear-gradient(240deg, #562d73, #da1b4c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Rubik', sans-serif;
 }
