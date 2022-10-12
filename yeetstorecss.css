@@ -6,7 +6,7 @@ body{
 }
 
 .gradient-title{
-  font-size: 3rem;
+  font-size: 100%;
   background: -webkit-linear-gradient(240deg, #562d73, #da1b4c);
   background-clip: text;
   -webkit-background-clip: text;
