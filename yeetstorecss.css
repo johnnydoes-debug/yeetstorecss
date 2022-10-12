@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
-
+:root {
+  --prima: #562d73; /*GradientColor 1*/
+  --segunda: #da1b4c;  /*Gradient Color 2*/
+}
 body{
   overflow: hidden;
   font-family: 'Rubik', sans-serif;
@@ -8,7 +11,7 @@ body{
 .gradient-title{
   text-align: center;
   font-size:15vw;
-  background: -webkit-linear-gradient(240deg, #562d73, #da1b4c);
+  background: -webkit-linear-gradient(240deg, var(--prima), var(--segunda));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
