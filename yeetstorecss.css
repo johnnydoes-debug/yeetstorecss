@@ -2,6 +2,7 @@
 
 body{
   overflow: hidden;
+  font-family: 'Rubik', sans-serif;
 }
 
 .gradient-title{
@@ -10,9 +11,10 @@ body{
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: 'Rubik', sans-serif;
 }
 
 @media only screen and (max-width: 600px) {
-  
+  .gradient-title{
+    font-size: 1rem;
+  }
 }
