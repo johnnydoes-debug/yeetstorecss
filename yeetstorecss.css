@@ -12,9 +12,3 @@ body{
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
-@media only screen and (max-width: 600px) {
-  .gradient-title{
-    font-size: 1rem;
-  }
-}
