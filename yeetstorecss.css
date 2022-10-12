@@ -1,8 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+body{
+  overflow: hidden;
+}
+
 .gradient-title{
-  font-size: 53px;
+  font-size: 3rem;
   background: -webkit-linear-gradient(240deg, #562d73, #da1b4c);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: 'Rubik', sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+  
 }
